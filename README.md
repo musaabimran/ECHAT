@@ -10,8 +10,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install streamlit chromadb fastembed
 
 ## Ollama
-pip install ollama
+pip install ollama 
+
 ollama pull model-name
+
 ollama run model-name
 
 ## Running App
